@@ -1,0 +1,26 @@
+@use './_variables';
+@use './_reset';
+
+header {
+      background-color: $primary-color;
+      color: $font-color;
+      padding: 10px 0;
+      text-align: center;
+  
+      nav {
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        li {
+            display: inline;
+            margin: 0 10px;
+        }
+    
+        a {
+            color: $font-color;
+            text-decoration: none;
+        }
+    }
+}
